@@ -1,0 +1,19 @@
+<div class="beersPage">
+<h1>Beers</h1>
+
+<br>
+<hr>
+
+<div class="bearsGrid">
+    {{#each content}}
+        <div class="beerBox">
+            <img src="{{this.image_url}}" alt="">
+            <div class="beerDesc">
+                <h2>{{this.name}}</h2>
+                <p>{{this.description}}</p>
+                <h3>{{this.tagline}}</h3>
+            </div>
+        </div>
+    {{/each}}
+</div>
+</div>

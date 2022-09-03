@@ -5,3 +5,109 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+html{
+    /* background-color: gray; */
+}
+
+
+.centerHome{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 8%;
+}
+
+.beersPage{
+    margin-top: 4%;
+    margin-bottom: 3vw;
+}
+
+.beerSelected{
+    margin-top: 8%;
+    margin-bottom: 3vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+}
+
+.beerSelected .image{
+    height: 20vw;
+    width: auto;
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+
+.beerSelected .content{
+    width: 60vw;
+    height: auto;
+}
+
+.beerSelected .tagline{
+    opacity: .4;
+}
+
+.bearsGrid{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.beerBox{
+    display: flex;
+    flex-flow: row;
+    width:20vw;
+    margin: 20px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.beerBox img{
+    height: 10vw;
+    width: auto;
+    margin-right: 20px;
+}
+
+.beerDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.homeButtons{
+    margin: 10px;
+    background-color: #2081c3;
+    padding:.7vw;
+    border-radius: 15px;
+    width:250px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #0a2c42;
+    color: white;
+    padding: 1vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+
+nav{
+    background-color:#2081c3; 
+    color: white;
+    padding: 1vw;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
